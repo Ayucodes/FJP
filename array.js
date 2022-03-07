@@ -1,0 +1,15 @@
+let arr=[1,2,"Hello",16.7,true,"fruit"];
+console.log(arr);
+arr[0]=17;
+console.log(arr);
+arr.push("PUBG");
+console.log(arr);
+arr.push("Gaming");
+console.log(arr);
+arr.pop();
+console.log(arr);
+arr.shift();
+console.log(arr);
+arr.unshift("DAALON START");
+console.log(arr);
+console.log(arr.length);
