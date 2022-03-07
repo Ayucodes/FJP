@@ -1,10 +1,11 @@
-let a="Ayush is sitting in the car";
+let a="   Ayush is sitting in the car      ";
 console.log(a.length);
 console.log(a.slice(4,10));
 console.log(a.replace("sitting","was sitting"));
-console.log(a.toUpperCase);
+console.log(a.toUpperCase());
 console.log(a.toLowerCase());
 let x="Namaste";
 let y=" Sir ji";
 console.log(x.concat(y));
-console.log(x.charAt(27));
+console.log(x.charAt(5));
+console.log(a.trim());
